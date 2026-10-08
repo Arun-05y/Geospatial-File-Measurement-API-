@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Agricultural Field Boundaries</name>
+    <description>Field survey polygon features in EPSG:4326</description>
+    <Placemark>
+      <name>North Field Alpha</name>
+      <description>Soybean parcel</description>
+      <ExtendedData>
+        <Data name="crop"><value>Soybean</value></Data>
+        <Data name="farmer"><value>J. Smith</value></Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -93.2650,44.9778,0
+              -93.2610,44.9778,0
+              -93.2610,44.9740,0
+              -93.2650,44.9740,0
+              -93.2650,44.9778,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>South Field Beta</name>
+      <description>Corn parcel</description>
+      <ExtendedData>
+        <Data name="crop"><value>Corn</value></Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -93.2650,44.9730,0
+              -93.2610,44.9730,0
+              -93.2610,44.9690,0
+              -93.2650,44.9690,0
+              -93.2650,44.9730,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

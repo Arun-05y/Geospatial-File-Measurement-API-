@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Utility Pipelines and Roads</name>
+    <Placemark>
+      <name>Gas Pipeline Mainline</name>
+      <description>Transmission line section A</description>
+      <ExtendedData>
+        <Data name="diameter_inches"><value>24</value></Data>
+        <Data name="material"><value>Steel</value></Data>
+      </ExtendedData>
+      <LineString>
+        <coordinates>
+          -93.2700,44.9700,0
+          -93.2650,44.9750,0
+          -93.2600,44.9800,0
+          -93.2500,44.9850,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Access Road Spur</name>
+      <description>Gravel maintenance access</description>
+      <LineString>
+        <coordinates>
+          -93.2650,44.9750,0
+          -93.2620,44.9720,0
+          -93.2580,44.9710,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

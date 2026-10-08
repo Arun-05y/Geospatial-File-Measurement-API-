@@ -1,0 +1,11 @@
+services:
+  api:
+    build: .
+    container_name: gfm-measurement-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./uploads:/app/uploads
+    environment:
+      - PORT=8000
+    restart: unless-stopped

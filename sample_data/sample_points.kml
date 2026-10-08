@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Survey Control Points</name>
+    <Placemark>
+      <name>Benchmark Alpha</name>
+      <description>Primary GPS monument</description>
+      <Point>
+        <coordinates>-93.2650,44.9778,254.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Monitoring Station Bravo</name>
+      <description>Weather monitoring sensor</description>
+      <Point>
+        <coordinates>-93.2610,44.9740,248.5</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
